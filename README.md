@@ -2,6 +2,8 @@
 
 This folder contains the source code for the Words app codelab.
 
+![Screenshot](https://user-images.githubusercontent.com/92341925/201822218-cbc3785c-faf0-4520-9809-d5ba4154502a.png)
+
 
 # Introduction
 Words app allows you to select a letter and use Intents to navigate to an Activity that
@@ -10,17 +12,19 @@ presents a number of words starting with that letter. Each word can be looked up
 Words app contains a scrollable list of 26 letters A to Z in a RecyclerView. The orientation
 of the RecyclerView can be changed between a vertical list or a grid of items.
 
-The app demonstrates the use of Intents in two ways:
-* to navigate inside an app by specifying an explicit destination, and,
-* allowing Android to service the Intent using the apps and resources present on the device.
+Learning Objectives:
+--------------
 
-# Pre-requisites
-* Experience with Kotlin syntax.
-* Able to create an Activity.
-* Able to create a RecyclerView and supply it with data.
+- How to use instrumentation tests to test navigation component.
+- How to set up tests without repeated code.
+- How to use annotations @Before and @After
 
-# Getting Started
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+
+Skills displayed in project:
+---------------
+
+    * Project-level build.gradle Dependency modification
+    * App-level build.gradle Dependency and plugin modification
+    * Importing libraries
+    * Navigation Test
+    * Calling and importing methods
